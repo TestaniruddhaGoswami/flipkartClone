@@ -1,0 +1,159 @@
+.menu{
+    display: flex;
+    justify-content:space-between;
+ flex-direction: row;
+ /* box-sizing: border-box; */
+ /* overflow: scroll; */
+ width: 100vh;
+ margin: 20px;
+}
+.menuitems{
+    display: flex;
+    flex-direction: column; 
+    margin: 35px;
+    /* height:50px; */
+    width:50px;
+    white-space: nowrap;
+    margin: 0px 35px 0 35px;
+}
+
+.hov{
+    color:rgb(33, 33, 33);
+    cursor: pointer;
+}
+.hov:hover{
+    color:#2875f0;;
+}
+
+
+.menu-item-8{
+    display:flex
+}
+.menu-item-9{
+    display:flex;
+    margin-left: 80px;
+}
+
+/* MENU OVER */
+/* BANNER STARTS */
+
+.section-2-container {
+    margin-top: 16px;
+    height: 260px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/de220a4bfd3b461b.jpg?q=50');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.grey-border-1{
+    border: 7px solid #e4e7ed;}
+    .grey-border-after-banner{
+        border: 5px solid #e4e7ed;}
+        .grey-border-after-offer{
+            border: 5px solid #e4e7ed;}
+.grey-border-last{
+    border: 30px solid #e4e7ed;
+}
+/* section 4 */
+.section-4-container {
+    height: 100%;
+    margin-top: 8px;
+    height: 362px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-4-offers {
+    width: 230px;
+    height: 100%;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/1e483f8045ec13a8.jpg?q=90');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.section-4-offers-electronics {
+    width: 230px;
+    height: 100%;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.section-4-offers-summers {
+    width: 230px;
+    height: 100%;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.section-4-offers-viewall{
+    margin-top: 132px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-4-offers-viewall button {
+    margin-top: 24px;
+    height: 40px;
+    background-color: #2875f0;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.section-4-list {
+    height: 100%;
+    width: calc(100% - 230px);
+    display: flex;
+    overflow-x: auto;
+}
+.section-4-item{
+    width: 232px;
+    height: 100%;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.section-4-item img {
+    width: 200px;
+    height: 200px;
+}
+
+.hov-image{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+    
+.hov-image:hover{
+    width: 220px;
+    height: 220px;
+}
+
+.section-4-item-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.section-4-item-price {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+}
+.section-4-item-explore{
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 12px;
+}
